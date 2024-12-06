@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "description": "Developed and maintained web applications using React and Node.js",
+    "startDate": "2020-01-01",
+    "endDate": "2022-12-31"
+  },
+  {
+    "id": "2",
+    "title": "Frontend Developer",
+    "company": "Web Solutions Inc",
+    "description": "Created responsive user interfaces and implemented complex UI components",
+    "startDate": "2018-06-01",
+    "endDate": "2019-12-31"
+  }
+]
+
