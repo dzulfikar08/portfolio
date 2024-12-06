@@ -1,8 +1,6 @@
 import { NextRequest,NextResponse } from 'next/server'
 
-export const config = {
-    runtime: 'edge',
-  }
+export const runtime = 'edge'
 // In a real application, you would use Cloudflare KV or D1 for storage
 const experiences = [
   {
