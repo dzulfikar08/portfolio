@@ -1,5 +1,8 @@
-import { NextResponse } from 'next/server'
+import { NextRequest,NextResponse } from 'next/server'
 
+export const config = {
+    runtime: 'edge',
+  }
 // In a real application, you would use Cloudflare KV or D1 for storage
 const experiences = [
   {
@@ -24,7 +27,7 @@ export async function GET() {
   return NextResponse.json(experiences)
 }
 
-export async function POST(request: Request) {
+export async function POST(request: NextRequest) {
   const newExperiences = await request.json()
   // In a real application, you would save to Cloudflare KV or D1 here
   return NextResponse.json({ ...newExperiences, success: true,  })
