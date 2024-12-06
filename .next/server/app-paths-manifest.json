@@ -1,5 +1,4 @@
 {
-  "/page": "app/page.js",
   "/api/experiences/route": "app/api/experiences/route.js",
   "/admin/page": "app/admin/page.js"
 }
